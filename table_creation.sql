@@ -39,7 +39,7 @@ DROP TABLE IF EXISTS Salary;
 	CREATE TABLE Salary 
 	(--.--Name----------------.Type-------------.NOT NULL/NULL-----------
 	      emp_no	           INTEGER           NOT NULL,    FOREIGN KEY (emp_no) REFERENCES Employee (emp_no)
-	   ,  salary               INTEGER       NOT NULL  
+	   ,  salary               INTEGER           NOT NULL  
 		
 	   , PRIMARY KEY(emp_no)	
 	);
